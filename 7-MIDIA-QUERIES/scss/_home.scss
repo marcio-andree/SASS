@@ -1,0 +1,32 @@
+.s-hero{
+  .container{
+    display: flex;
+    align-items: center;
+  }
+  @include responsive(1200px){
+    .container{
+      flex-direction: column;
+    }
+  }
+  @include responsive(991px){
+    .container{
+      flex-direction: column;
+    }
+  }
+  @include responsive(768px){
+    .container{
+      flex-direction: column;
+    }
+  }
+  @include responsive(600px){
+    .container{
+      flex-direction: column;
+    }
+  }
+  @include responsive(480px){
+    .container{
+      flex-direction: column;
+    }
+  }
+
+}
