@@ -1,0 +1,20 @@
+.first-section{
+  margin-bottom: 10px;
+  button{
+    @include style-btn;
+  }
+}
+
+.second-section{
+  margin-bottom: 15px;
+  button{
+    @include style-btn;
+  }
+}
+
+
+.third-section {
+  button{
+    @include style-btn-var(120px, 50px);
+  }
+}

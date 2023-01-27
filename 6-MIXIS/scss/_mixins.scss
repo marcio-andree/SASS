@@ -1,0 +1,24 @@
+@mixin style-btn {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: pink;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 5px;
+  border: none;
+}
+
+
+@mixin style-btn-var($largura, $altura) {
+  width:  $largura;
+  height: $altura;
+  background-color: #050505;
+  color:white;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 5px;
+  border: none;
+}
+
+// mix dentro de mix
